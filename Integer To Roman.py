@@ -44,4 +44,5 @@ def intToRoman(num):
     elif 5 < o < 9:
         Z += 'V' + 'I'*(o-5)
     print(Z)
-intToRoman(345)
+number = int(input("Enter the number you wanna convert to roman: "))
+intToRoman(number)
